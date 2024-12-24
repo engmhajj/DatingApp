@@ -1,0 +1,15 @@
+@host =https://localhost:5001
+
+### GET Single object
+@id = 2
+
+GET {{host}}/api/Users/{{id}}
+Accept: application/json
+
+
+### GET multiple object
+
+GET {{host}}/api/Users
+Accept: application/json
+###
+
